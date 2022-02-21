@@ -18,12 +18,12 @@ export class SidebarService {
       ]      
     },
     {
-      titulo : 'Dashboard2',
-      icono : 'mdi mdi-gauge',
+      titulo : 'Mantenimientos',
+      icono : 'mdi mdi-folder-lock-open',
       submenu : [
-        {titulo: 'Main', url:'/'},        
-        {titulo: 'ProgressBar', url:'progress'},        
-        {titulo: 'Gráficas', url:'grafica1'}
+        {titulo: 'Usuarios', url:'usuarios'},        
+        {titulo: 'Hospitales', url:'hospitales'},        
+        {titulo: 'Medicos', url:'medicos'}
       ]      
     }
   ];
